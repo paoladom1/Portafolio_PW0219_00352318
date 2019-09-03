@@ -1,0 +1,17 @@
+body{
+    background-color: lightblue;
+}
+
+.container{
+    display: flex;
+    flex-flow: wrap;
+}
+
+header{
+    align-items: flex-end;
+}
+
+.clase{
+    text-transform: uppercase;
+    text-align: center;
+}
