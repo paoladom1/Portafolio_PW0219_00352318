@@ -1,0 +1,29 @@
+.content {
+    @include set-dimensions(auto, 80vh);
+    @include flex-container(flex, column wrap, center);
+    align-items: center;
+}
+
+.title {
+    background-color: $color-light;
+    border-radius: 4px;
+    flex-flow: row wrap;
+
+    text-transform: uppercase;
+    font-size: $font-size;
+
+    h1 {
+        @include set-area-values(0, 0, 0);
+    }
+}
+
+.hr-title {
+    margin-top: 16px;
+    @include set-dimensions(400px, 3px);
+    background-color: $color-white;
+    border: 0;
+}
+
+.first-icon-row, .second-icon-row {
+    text-align: center;
+}

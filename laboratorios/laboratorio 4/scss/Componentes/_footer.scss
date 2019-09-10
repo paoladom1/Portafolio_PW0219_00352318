@@ -1,0 +1,7 @@
+footer {
+    @include flex-container(flex, row wrap, space-between);
+}
+
+button.default {
+    background-color: $color-default;
+}
